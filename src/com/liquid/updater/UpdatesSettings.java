@@ -135,14 +135,14 @@ public class UpdatesSettings extends PreferenceActivity implements
         // Load the stored preference data
         mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
         if (mUpdateCheck != null) {
-            int check = mPrefs.getInt(Constants.UPDATE_CHECK_PREF, Constants.UPDATE_FREQ_WEEKLY);
+            int check = mPrefs.getInt(Constants.UPDATE_CHECK_PREF, Constants.UPDATE_FREQ_DAILY);
             mUpdateCheck.setValue(String.valueOf(check));
             mUpdateCheck.setSummary(mapCheckValue(check));
             mUpdateCheck.setOnPreferenceChangeListener(this);
         }
 
         if (mUpdateType != null) {
-            int type = mPrefs.getInt(Constants.UPDATE_TYPE_PREF, 0);
+            int type = mPrefs.getInt(Constants.UPDATE_TYPE_PREF, 3);
             mUpdateType.setValue(String.valueOf(type));
             mUpdateType.setSummary(mUpdateType.getEntries()[type]);
             mUpdateType.setOnPreferenceChangeListener(this);

@@ -238,7 +238,7 @@ public class UpdateCheckService extends IntentService {
     private LinkedList<UpdateInfo> getAvailableUpdatesAndFillIntent(Intent intent) throws IOException {
         // Get the type of update we should check for
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        int updateType = prefs.getInt(Constants.UPDATE_TYPE_PREF, 0);
+        int updateType = prefs.getInt(Constants.UPDATE_TYPE_PREF, 3);
 
         // Get the actual ROM Update Server URL
         URI updateServerUri = getServerURI();
