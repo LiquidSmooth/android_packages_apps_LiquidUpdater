@@ -16,7 +16,7 @@
   <string name="menu_delete">Borrar</string>
   <string name="menu_delete_all">Borrar descargas</string>
   <string name="menu_system_info">Información del sistema</string>
-  <string name="dialog_ok">Aceptar</string>
+  <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Cancelar</string>
   <string name="dialog_yes">Sí</string>
   <string name="dialog_no">No</string>
