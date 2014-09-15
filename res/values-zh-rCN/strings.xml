@@ -61,27 +61,27 @@
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击 \'重启并安装\' 时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序。</string>
-  <string name="apply_existing_update_md5error_message">Error. MD5 checksum mismatch</string>
-  <string name="md5_check_cancelled">MD5 check was cancelled</string>
-  <string name="md5_verification_failed">MD5 verification failed</string>
-  <string name="apply_update_dialog_title">Apply update</string>
-  <string name="apply_update_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-  <string name="apply_trying_to_get_root_access">Trying to get root access to reboot in recovery mode</string>
-  <string name="apply_unable_to_reboot_toast">Unable to reboot into recovery</string>
-  <string name="confirm_delete_dialog_title">Delete file</string>
-  <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
-  <string name="confirm_delete_all_dialog_message">Delete all downloaded update files?</string>
-  <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> deleted</string>
-  <string name="delete_updates_failure_message">There was an error deleting the update file</string>
-  <string name="delete_updates_noFolder_message">Update folder not found</string>
-  <string name="delete_updates_success_message">All downloaded updates deleted</string>
-  <string name="sysinfo_device">Device:</string>
-  <string name="sysinfo_running">Running:</string>
-  <string name="sysinfo_last_check">Last check:</string>
-  <string name="no_changelog_alert">No changelog available</string>
-  <string name="failed_to_load_changelog">Unable to load changelog</string>
-  <string name="changelog_dialog_title">Changelog</string>
-  <string name="loading_changelog">Loading\u2026</string>
-  <string name="extension_label">Liquid Updates</string>
-  <string name="extension_description">Displays number of new updates available.</string>
+  <string name="apply_existing_update_md5error_message">错误。MD5 值不匹配</string>
+  <string name="md5_check_cancelled">MD5 检测已被取消</string>
+  <string name="md5_verification_failed">MD5 检测失败</string>
+  <string name="apply_update_dialog_title">应用更新</string>
+  <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您将需要手动安装更新。</string>
+  <string name="apply_trying_to_get_root_access">正在尝试获得超级用户权限以便进入恢复模式</string>
+  <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
+  <string name="confirm_delete_dialog_title">删除文件?</string>
+  <string name="confirm_delete_dialog_message">您确定要删除此更新文件？</string>
+  <string name="confirm_delete_all_dialog_message">您确定要删除所有已下载的更新文件？</string>
+  <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已被删除</string>
+  <string name="delete_updates_failure_message">删除更新时发生了错误</string>
+  <string name="delete_updates_noFolder_message">未找到更新所在的文件夹</string>
+  <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
+  <string name="sysinfo_device">设备：</string>
+  <string name="sysinfo_running">目前运行:</string>
+  <string name="sysinfo_last_check">最后一次检查时间:</string>
+  <string name="no_changelog_alert">无可用的更改记录</string>
+  <string name="failed_to_load_changelog">无法读取更改记录</string>
+  <string name="changelog_dialog_title">更新日志​​​​​</string>
+  <string name="loading_changelog">载入中…</string>
+  <string name="extension_label">Liquid 更新</string>
+  <string name="extension_description">显示有多少个可用的新更新。</string>
 </resources>
