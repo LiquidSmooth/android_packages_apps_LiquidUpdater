@@ -15,7 +15,7 @@
   <string name="menu_refresh">Obnovit</string>
   <string name="menu_delete">Odstranit</string>
   <string name="menu_delete_all">Odstranit stažené soubory</string>
-  <string name="menu_system_info">Systémové informace</string>
+  <string name="menu_system_info">Informace o systému</string>
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Zrušit</string>
   <string name="dialog_yes">Ano</string>
@@ -23,7 +23,7 @@
   <string name="dialog_update">Aktualizovat</string>
   <string name="dialog_close">Zavřít</string>
   <string name="available_updates_title">Dostupné aktualizace</string>
-  <string name="no_available_updates_intro">Nebyly nalezeny žádné aktualizace. Pro ruční vyhledání aktualizací stiskněte tlačítko Obnovit.</string>
+  <string name="no_available_updates_intro">Poslední kontrola nenalezla žádné aktualizace. Pro ruční vyhledání aktualizací stiskněte tlačítko Obnovit.</string>
   <string name="new_update_summary">Nové</string>
   <string name="downloaded_update_summary">Staženo</string>
   <string name="installed_update_summary">Nainstalované</string>
@@ -37,16 +37,16 @@
   <string name="check_weekly">Týdně</string>
   <string name="check_bi_weekly">Čtrnáctidenně</string>
   <string name="check_monthly">Měsíčně</string>
-  <string name="update_type_title">Typy aktualizace</string>
-  <string name="type_all">Všechny verze (jen Release)</string>
-  <string name="type_all_incl_nightly">Všechny verze (včetně nightlies)</string>
-  <string name="type_new">Nové verze (jen Release)</string>
-  <string name="type_new_incl_nightly">Nové verze (včetně nightlies)</string>
-  <string name="nightly_alert">Byla zvolena možnost zahrnout do seznamu i nightly aktualizace. Tyto nejsou podporovány a měli by být používány s opatrností.</string>
-  <string name="nightly_alert_title">Upozornění</string>
+  <string name="update_type_title">Typy aktualizací</string>
+  <string name="type_all">Všechny verze (jen stabilní sestavení)</string>
+  <string name="type_all_incl_nightly">Všechny verze (i zkušební sestavení)</string>
+  <string name="type_new">Nové verze (jen stabilní sestavení)</string>
+  <string name="type_new_incl_nightly">Nové verze (i zkušební sestavení)</string>
+  <string name="nightly_alert">Byla zvolena možnost zahrnout do seznamu i zkušební sestavení. Tyto nejsou podporována a měla by být používána s opatrností.</string>
+  <string name="nightly_alert_title">Varování</string>
   <string name="checking_for_updates">Kontrola aktualizací</string>
   <string name="no_updates_found">Žádné nové aktualizace nenalezeny</string>
-  <string name="update_check_failed">Zjištění nové verze selhalo. Prosím zkontrolujte připojení k internetu a pokus opakujte.</string>
+  <string name="update_check_failed">Kontrola aktualizací se nezdařila. Prosím zkontrolujte své připojení k internetu a pokus opakujte později.</string>
   <string name="not_new_updates_found_ticker">Jsou k dispozici nové aktualizace</string>
   <string name="not_new_updates_found_title">Nové aktualizace</string>
   <string name="not_action_download">Stáhnout</string>
@@ -58,19 +58,19 @@
   <string name="unable_to_download_file">Nelze stáhnout aktualizační soubor</string>
   <string name="download_not_found">Soubor pro stažení nenalezen</string>
   <string name="not_download_success">Aktualizace úspěšně stažena</string>
-  <string name="not_download_failure">Aktualizaci nelze stáhnout</string>
+  <string name="not_download_failure">Stažení aktualizace bylo neúspěšné</string>
   <string name="not_action_install_update">Restartovat a nainstalovat</string>
-  <string name="not_download_install_notice">Aktualizace <xliff:g id="filename">%s</xliff:g> byla úspěšně stáhnuta. Stisknutím \'Restartovat a nainstalovat\', bude zařízení restartováno a bude provedena automatická instalace aktualizace.\n\nPoznámka: pro automatickou instalaci je vyžadován kompatibilní Recovery manažer.</string>
+  <string name="not_download_install_notice">Aktualizace <xliff:g id="filename">%s</xliff:g> byla úspěšně stažena. Po stisknutí \'Restartovat a nainstalovat\', se zařízení restartuje a nainstaluje aktualizaci.\n\nPoznámka: Pro funkci automatické instalace je vyžadován kompatibilní manažer obnovení.</string>
   <string name="apply_existing_update_md5error_message">Chyba MD5 kontrolního součtu souboru</string>
-  <string name="md5_check_cancelled">MD5 kontrola byla zrušena</string>
+  <string name="md5_check_cancelled">Kontrola MD5 byla zrušena</string>
   <string name="md5_verification_failed">Ověření MD5 se nezdařilo</string>
   <string name="apply_update_dialog_title">Použít aktualizaci</string>
-  <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu Recovery, kde budete pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalovaný kompatibilní režim Recovery nebo je nutné instalaci provést ručně.</string>
-  <string name="apply_trying_to_get_root_access">Získávají se práva root k restartu do režimu Recovery</string>
-  <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu recovery</string>
+  <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, zařízení se restartuje do režimu obnovy, kde budete pokračovat v instalaci aktualizace.\n\nPoznámka: Tato funkce vyžaduje kompatibilní manažer obnovení nebo je nutné instalaci provést ručně.</string>
+  <string name="apply_trying_to_get_root_access">Snaha o získání práva root k restartu do režimu obnovy</string>
+  <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu obnovy</string>
   <string name="confirm_delete_dialog_title">Odstranit soubor</string>
-  <string name="confirm_delete_dialog_message">Opravdu chcete smazat soubor aktualizace?</string>
-  <string name="confirm_delete_all_dialog_message">Opravdu chcete smazat všechny soubory aktualizací?</string>
+  <string name="confirm_delete_dialog_message">Smazat zvolený soubor aktualizace?</string>
+  <string name="confirm_delete_all_dialog_message">Smazat všechny soubory aktualizací?</string>
   <string name="delete_single_update_success_message">Aktualizace <xliff:g id="filename">%s</xliff:g> odstraněna</string>
   <string name="delete_updates_failure_message">Během odstraňování souboru aktualizace se vyskytla chyba</string>
   <string name="delete_updates_noFolder_message">Adresář aktualizací nenalezen</string>
@@ -83,5 +83,5 @@
   <string name="changelog_dialog_title">Seznam změn</string>
   <string name="loading_changelog">Načítání\u2026</string>
   <string name="extension_label">Liquid aktualizace</string>
-  <string name="extension_description">Zobrazení počtu nových dostupných aktualizací.</string>
+  <string name="extension_description">Zobrazuje počet nových dostupných aktualizací.</string>
 </resources>
