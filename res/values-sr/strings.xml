@@ -16,7 +16,7 @@
   <string name="menu_delete">Delete</string>
   <string name="menu_delete_all">Delete downloads</string>
   <string name="menu_system_info">System info</string>
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">У реду</string>
   <string name="dialog_cancel">Cancel</string>
   <string name="dialog_yes">Yes</string>
   <string name="dialog_no">No</string>
